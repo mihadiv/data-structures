@@ -141,7 +141,7 @@ void main() {
     printf("\n-------------------------\n");
 
     //Extragerea elementelor din heap si adaugarea lor intr-un vector (sortat crescator)
-    produs* vectSortat = (produs*)malloc(h.nrElem*sizeof(produs));
+    produs *vectSortat = (produs *) malloc(h.nrElem * sizeof(produs));
     int nr = h.nrElem;
     for (int i = 0; i < nr; ++i) {
         h = extragere(h, &produsExtras);
@@ -150,7 +150,7 @@ void main() {
 
     for (int i = 0; i < nr; ++i) {
         printf("\nPret = %5.2f, Denumire produs = %s, Stoc = %d",
-           vectSortat[i].pret, vectSortat[i].denumire, vectSortat[i].stoc);
+               vectSortat[i].pret, vectSortat[i].denumire, vectSortat[i].stoc);
     }
     for (int i = 0; i < nr; ++i) {
         free(vectSortat[i].denumire);
