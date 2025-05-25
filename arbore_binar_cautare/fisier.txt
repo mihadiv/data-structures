@@ -1,0 +1,11 @@
+10
+120 OneNote Microsoft 199.99 4 5 2023
+115 Illustrator Adobe 499.99 10 3 2022
+110 Word Microsoft 299.99 12 11 2024
+105 InDesign Adobe 399.99 25 7 2023
+100 Excel Microsoft 199.99 1 2 2023
+130 Photoshop Adobe 999.99 9 9 2023
+135 PowerPoint Microsoft 299.99 2 3 2025
+140 Lightroom Adobe 299.99 30 8 2023
+145 CorelDraw Corel 499.99 20 3 2024
+150 AfterEffects Adobe 899.99 20 11 2023
